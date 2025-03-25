@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List | Tech Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>To Do List</h1>
+    <div class="card">
+      <div class="header">
+        <h1>Todo Application</h1>
+        <p>Hi there, welcome back, its time to complete your tasks.</p>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="Enter your task here" />
+        <button><img src="assets/add.svg" alt="Add" /></button>
+      </div>
+      <span class="error-msg"></span>
+      <ul class="todos"></ul>
+    </div>
+  </body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script type="module" src="js/main.js"></script>
   </body>
 </html>

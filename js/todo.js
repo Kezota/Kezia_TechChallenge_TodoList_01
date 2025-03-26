@@ -49,7 +49,7 @@ function deleteTodo(todoItem, todosList) {
 }
 
 // COMMENT: Function to toggle a todo item as completed or uncompleted
-function toggleTodo(todoItem) {
+function toggleTodo(todoItem, todosList) {
   const checkbox = todoItem.querySelector('input[type="checkbox"]');
   const span = todoItem.querySelector("span");
 
